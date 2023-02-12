@@ -80,4 +80,4 @@ if submit:
     with zipfile.ZipFile(zip_file, "w") as zip:
         for file in files:
             zip.write(file)
-    send_email("YOUR_EMAIL_ID", "YOUR_EMAIL_PASSWORD", [email_id], "Mashup Result
+    send_email("YOUR_EMAIL_ID", "YOUR_EMAIL_PASSWORD", [email_id], "Mashup Result")
